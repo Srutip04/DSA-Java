@@ -60,7 +60,7 @@ public class KnightsTour {
          * solveKTUtil()
          */
         if (!solveKTUtil(0, 0, 1, sol, xMove, yMove)) {
-            System.out.println("Sol does not exist");
+            System.out.println("Solution does not exist");
             return false;
         } else
             printSolution(sol);
